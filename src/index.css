@@ -1,0 +1,45 @@
+body {
+    background-color: hsla(0, 0%, 80%, 0.57);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+
+.joke-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 69%, 10%, 0.803);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 300px;
+}
+
+.joke-button {
+    background-color: hsla(180, 100%, 50%, 0.37);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+.joke-button:hover  {
+    cursor: pointer;
+    background-color: hsla(180, 100%, 40%, 0.37);
+
+}
+
+.joke-display{
+    font-size: 1.2em;
+    text-align: center;
+}
